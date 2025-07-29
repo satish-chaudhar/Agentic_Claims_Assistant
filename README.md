@@ -29,7 +29,6 @@ This project is an **Agentic GenAI-powered Streamlit app** that allows users to 
 
 ## 🧩 Architecture
 
-```mermaid
 graph TD
     A[User Uploads PDF] --> B[PDF Loader (PyPDFLoader)]
     B --> C[Chunking & Embeddings (OpenAIEmbeddings)]
